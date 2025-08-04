@@ -1,4 +1,3 @@
-print("hello world")
 
 for i in range(1, 101):
     
@@ -9,4 +8,5 @@ for i in range(1, 101):
     elif i % 5 == 0:
         print ("Buzz Number")
     else:
+
         print(i)
