@@ -1,0 +1,21 @@
+from array import array
+
+def binary_search_array(arr, target):
+    low = 0
+    high = len(arr) - 1
+    
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+
+numbers = array('i', [1, 3, 5, 7, 9, 11])
+
+index = binary_search_array(numbers, 7)
+print(index) 
