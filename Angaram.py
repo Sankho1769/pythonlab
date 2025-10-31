@@ -5,3 +5,4 @@ if sorted(word1) == sorted(word2):
     print("Anagram")
 else:
     print("Not anagram")
+
