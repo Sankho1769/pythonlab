@@ -7,3 +7,4 @@ if Counter(word1) == Counter(word2):
     print("Anagram")
 else:
     print("Not anagram")
+
